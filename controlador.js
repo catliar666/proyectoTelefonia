@@ -12,6 +12,7 @@ document.getElementById("Resetear").addEventListener("click", function() {
 
     // Ocultar el contenedor de resultados si está visible
     card.style.display = 'none';
+    containerForm.style.display = 'block';
     tituloCard.textContent = '';
     textoCard.innerHTML = '';
 });
